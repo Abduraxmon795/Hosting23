@@ -1,0 +1,67 @@
+body {
+    background-color: #2c3149; /* qoramtir fon */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+button{
+    border-radius: 15px;
+    background-color: red;
+ 
+}
+.contener{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+img{
+    margin-left: 50px;
+    border-color: red;
+}
+iframe{
+   
+    width: 300px;
+    height: 175px;
+    margin-left: 500px;
+    
+}
+.box{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    width: 150px;
+    height: 75px;
+    
+    text-align: center;
+   border-radius: 15px;
+   justify-content: center;
+   align-items: center;
+   margin: 0% auto;
+   padding: 1vh;
+}
+.texts {
+    display: flex;
+    justify-content: center; /* markazga joylash */
+    gap: 40px;               /* orasidagi masofa */
+    margin-top: 30px;
+}
+
+.text-box {
+    background-color: red;   /* tashqi fon */
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 300px;
+}
+
+.text-box p {
+    background-color: limegreen; /* ichki fon */
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
